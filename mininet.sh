@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Pull in mininet
+cd ~
 git clone https://github.com/mininet/mininet
 cd mininet
 git checkout -b mininet-2.3.0 2.3.0
